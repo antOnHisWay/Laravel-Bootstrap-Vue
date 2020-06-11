@@ -1,0 +1,42 @@
+.content-main {
+  margin: 30px;
+}
+
+.rightbar.toggle-menu {
+  margin-left: 80px;
+}
+
+.toggle-menu.rightbar .topbar {
+  left: 80px;
+}
+
+.sidebar-overlay-show {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+}
+
+.topbar-mobile .mobile-togglebar .menu-hamburger img {
+  display: inline !important;
+}
+
+.topbar-mobile .mobile-togglebar a.topbar-toggle-hamburger img {
+  display: inline !important;
+}
+
+@media (max-width: 767px) {
+  .topbar-toggle-menu-show {
+    width: 100vw;
+    height: 40px;
+    margin-top: 55px;
+    background: #FFFFFF;
+    text-align: right;
+  }
+  
+  .topbar-toggle-menu-show-topbar{
+    display: block !important;
+  }
+
+  .topbar-mobile {
+    z-index: 5 !important;
+  }
+}
